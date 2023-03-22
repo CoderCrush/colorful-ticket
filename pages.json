@@ -1,0 +1,76 @@
+{
+	"pages": [{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "主页"
+			}
+		}, {
+			"path": "pages/home/detail/index",
+			"style": {
+				"navigationBarTitleText": "主页详情"
+			}
+		}, {
+			"path": "pages/mock/detail/index",
+			"style": {
+				"navigationBarTitleText": "模拟详情"
+			}
+		},
+		{
+			"path": "pages/history/index",
+			"style": {
+				"navigationBarTitleText": "历史记录"
+			}
+		},
+		{
+			"path": "pages/history/detail/index",
+			"style": {
+				"navigationBarTitleText": "历史详情",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "开始模拟",
+							"type": "none",
+							"color": "#007AFF",
+							"background": "#000000",
+							"fontSize": "16px"
+						}]
+					}
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"rpxCalcMaxDeviceWidth": 960,
+		"rpxCalcBaseDeviceWidth": 375,
+		"rpxCalcIncludeWidth": 750,
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"height": "50px",
+		"fontSize": "10px",
+		"iconWidth": "24px",
+		"spacing": "3px",
+		"iconfontSrc": "static/customicons.ttf", // app tabbar 字体.ttf文件路径 app 3.4.4+
+		"list": [{
+			"pagePath": "pages/home/index",
+			"iconPath": "static/imgs/tabbar/home.png",
+			"selectedIconPath": "static/imgs/tabbar/home-active.png",
+			"text": "主页"
+		}, {
+			"pagePath": "pages/history/index",
+			"iconPath": "static/imgs/tabbar/help.png",
+			"selectedIconPath": "static/imgs/tabbar/help-active.png",
+			"text": "历史记录"
+		}]
+	}
+}

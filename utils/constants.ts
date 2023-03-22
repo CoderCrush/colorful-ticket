@@ -1,0 +1,1 @@
+export const ticketNameMap = ['happyEigihtDetails', 'dobuleColorBallDetails', 'welfareLotteryDetails', 'sevenHappyDetails', 'sixAddOneDetails', 'l15x15Details']
